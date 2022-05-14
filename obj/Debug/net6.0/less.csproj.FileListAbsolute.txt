@@ -1,0 +1,15 @@
+/Users/mac/Desktop/work/less/obj/Debug/net6.0/less.csproj.AssemblyReference.cache
+/Users/mac/Desktop/work/less/obj/Debug/net6.0/less.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mac/Desktop/work/less/obj/Debug/net6.0/less.AssemblyInfoInputs.cache
+/Users/mac/Desktop/work/less/obj/Debug/net6.0/less.AssemblyInfo.cs
+/Users/mac/Desktop/work/less/obj/Debug/net6.0/less.csproj.CoreCompileInputs.cache
+/Users/mac/Desktop/work/less/bin/Debug/net6.0/less
+/Users/mac/Desktop/work/less/bin/Debug/net6.0/less.deps.json
+/Users/mac/Desktop/work/less/bin/Debug/net6.0/less.runtimeconfig.json
+/Users/mac/Desktop/work/less/bin/Debug/net6.0/less.dll
+/Users/mac/Desktop/work/less/bin/Debug/net6.0/ref/less.dll
+/Users/mac/Desktop/work/less/bin/Debug/net6.0/less.pdb
+/Users/mac/Desktop/work/less/obj/Debug/net6.0/less.dll
+/Users/mac/Desktop/work/less/obj/Debug/net6.0/ref/less.dll
+/Users/mac/Desktop/work/less/obj/Debug/net6.0/less.pdb
+/Users/mac/Desktop/work/less/obj/Debug/net6.0/less.genruntimeconfig.cache
