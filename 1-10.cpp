@@ -10,11 +10,19 @@ int main1()
   cout <<"222222"<< endl;
  return 0;
  }
- int main()
+ int main2()
  {
-     cout << "" << endl;
-     cout << "" << endl;
-     cout << "" << endl;
-     cout << "" << endl;
-     return 0;
+   cout << "  A" << endl;
+   cout << " A A" << endl;
+   cout << "AAAAA" << endl;
+  
+  return 0;
  }
+ int main()
+{
+  cout <<"\\    /\\"<< endl;
+  cout <<" )  ( ')"<< endl;
+  cout <<"(  /  )"<< endl;
+  cout << " \\(__)|"<< endl;
+  return 0;
+}
