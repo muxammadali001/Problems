@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 
 using namespace std;
 
@@ -36,11 +37,23 @@ int main4()
   cout << "||_/=\\\\__|" << endl;  
  return 0;
 }
-int main()
+int main5()
 {
   int oy, kun;
   cin >> oy >> kun;
   
   cout << "Birthday is " << setw(2) << setfill('0') << oy << "-" << setw(2) << setfill('0') << kun << "." << endl;
   return 0;
+}
+int main()
+{
+  int n;
+  
+  cin >> n;
+  
+  cout << n << n << n << n << n << n <<endl;
+  cout << n <<"    "<< n <<endl;
+  cout << n <<"    "<< n <<endl;
+  cout << n << n << n << n << n << n <<endl;
+return 0;
 }
