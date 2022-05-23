@@ -92,7 +92,7 @@ int main7()
   } 
 return 0;
 }
-int main()
+int main9()
 {
   cout << "1!=" << 1 << endl;
   cout << "2!=" << 1 * 2 << endl;
@@ -100,4 +100,58 @@ int main()
   cout << "4!=" << 1 * 2* 3 * 4 << endl;
   cout << "5!=" << 1 * 2* 3 * 4 * 5 << endl;
 return 0;
+}
+int main()
+{
+  int a = 0;
+  int b = 1;
+  int c = a + b;
+  
+  cout << a << " " << b << " " << c <<  " " ;
+  
+  a = b;
+  b = c;
+  c = a + b;
+  
+  cout << c << " ";
+  
+  a = b;
+  b = c;
+  c = a + b;
+  
+  cout << c << " ";
+  
+  a = b;
+  b = c;
+  c = a + b;
+  
+  cout << c << " ";
+  
+  a = b;
+  b = c;
+  c = a + b;
+  
+  cout << c << " ";
+  
+  a = b;
+  b = c;
+  c = a + b;
+  
+  cout << c << " ";
+  
+  a = b;
+  b = c;
+  c = a + b;
+  
+  cout << c << " ";
+  
+  a = b;
+  b = c;
+  c = a + b;
+  
+  cout << c << " ";
+  
+  
+  
+ return 0;
 }
