@@ -79,7 +79,7 @@ int main7()
   
   return 0;
  }
- int main()
+ int main8()
 {
   int n;
   
@@ -90,5 +90,14 @@ int main7()
   cout << n << "*" << sum << "=" << n * sum << endl;
     
   } 
+return 0;
+}
+int main()
+{
+  cout << "1!=" << 1 << endl;
+  cout << "2!=" << 1 * 2 << endl;
+  cout << "3!=" << 1 * 2 * 3 << endl;
+  cout << "4!=" << 1 * 2* 3 * 4 << endl;
+  cout << "5!=" << 1 * 2* 3 * 4 * 5 << endl;
 return 0;
 }
