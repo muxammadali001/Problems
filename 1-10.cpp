@@ -57,7 +57,7 @@ int main6()
   cout << n << n << n << n << n << n <<endl;
 return 0;
 }
-int main()
+int main7()
 {
   int N;
     cin >> N;
@@ -79,3 +79,16 @@ int main()
   
   return 0;
  }
+ int main()
+{
+  int n;
+  
+  cin >> n;
+  
+  for(int sum = 1; sum < 10; sum++)
+  {
+  cout << n << "*" << sum << "=" << n * sum << endl;
+    
+  } 
+return 0;
+}
