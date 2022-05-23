@@ -45,7 +45,7 @@ int main5()
   cout << "Birthday is " << setw(2) << setfill('0') << oy << "-" << setw(2) << setfill('0') << kun << "." << endl;
   return 0;
 }
-int main()
+int main6()
 {
   int n;
   
@@ -57,3 +57,25 @@ int main()
   cout << n << n << n << n << n << n <<endl;
 return 0;
 }
+int main()
+{
+  int N;
+    cin >> N;
+    cout << "Sun Mon Tue Wed Thu Fri Sat" << endl;
+    for(int a =N; a< N+7;a++)
+    {
+      if(a>31)
+        {
+          cout << setw(3) << a% 30-1<< " ";
+        }
+      else
+      {
+        cout << setw(3) << a << " ";
+      }
+      
+    }
+  
+  
+  
+  return 0;
+ }
