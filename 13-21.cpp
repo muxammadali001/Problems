@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main()
+int main13()
  {
   double eni, boyi;
   cin >> eni >> boyi;
@@ -13,6 +13,16 @@ int main()
   cout << "Area is " <<setprecision(2) << fixed << area  <<"."<< endl;
   
   
-return 0;
+ return 0;
 
-  }
+}
+int main()
+{
+  float son;
+
+  cin >> son;
+
+  cout << setprecision(0) << fixed << son << endl;
+
+  return 0;
+}
