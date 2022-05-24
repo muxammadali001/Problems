@@ -16,7 +16,7 @@ int main13()
  return 0;
 
 }
-int main()
+int main14()
 {
   float son;
 
@@ -26,3 +26,14 @@ int main()
 
   return 0;
 }
+int main()
+ {
+  char harf;
+  cin >> harf;
+  
+   cout << (char)(harf-32) << endl;
+  
+  
+return 0;
+
+  }
