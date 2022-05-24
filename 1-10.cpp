@@ -155,7 +155,7 @@ int main10()
   
  return 0;
 }
-int main()
+int main11()
 {
   int n;
   cin >> n;
@@ -166,3 +166,14 @@ int main()
   cout << belgi << endl;
 return 0;
 }
+int main12()
+ {
+  int eni, boyi;
+  cin >> eni >> boyi;
+  
+  cout << "Area is " << eni * boyi <<"."<< endl;
+  
+  
+return 0;
+
+  }
