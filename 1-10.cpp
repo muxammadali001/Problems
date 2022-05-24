@@ -101,7 +101,7 @@ int main9()
   cout << "5!=" << 1 * 2* 3 * 4 * 5 << endl;
 return 0;
 }
-int main()
+int main10()
 {
   int a = 0;
   int b = 1;
@@ -154,4 +154,15 @@ int main()
   
   
  return 0;
+}
+int main()
+{
+  int n;
+  cin >> n;
+  
+  char belgi = n;
+  
+  cout << n << endl;
+  cout << belgi << endl;
+return 0;
 }
