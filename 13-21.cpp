@@ -46,7 +46,7 @@ int main16()
  return 0;
 
 }
-int main()
+int main17()
 {
   int son;
 
@@ -58,5 +58,20 @@ int main()
   cout << son / 10 % 10 << "!"; 
   cout << son % 10; 
 
+  return 0;
+}
+int main()
+{
+  int sekund;
+  cin >> sekund;
+  
+  int soat = sekund / 3600;
+  int minut = sekund % 3600 / 60;
+  sekund = sekund % 60;
+  
+  cout << setw(2) << setfill('0') << soat << ":";
+  cout << setw(2) << setfill('0') << minut << ":";
+  cout << setw(2) << setfill('0') <<sekund;
+  
   return 0;
 }
