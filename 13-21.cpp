@@ -60,7 +60,7 @@ int main17()
 
   return 0;
 }
-int main()
+int main18()
 {
   int sekund;
   cin >> sekund;
@@ -74,4 +74,15 @@ int main()
   cout << setw(2) << setfill('0') <<sekund;
   
   return 0;
+}
+int main()
+{
+ int son;
+  
+ cin >> son;
+  
+ cout << son/ 100 % 10 << endl;
+  
+ return 0;
+
 }
