@@ -36,7 +36,7 @@ int main15()
   
  return 0;
 }
-int main()
+int main16()
  {
  char harf;
  cin >> harf;
@@ -45,4 +45,18 @@ int main()
   
  return 0;
 
+}
+int main()
+{
+  int son;
+
+  cin >> son;
+
+  cout << son / 10000 << "!" ; 
+  cout << son / 1000 % 10 << "!"; 
+  cout << son / 100 % 10 << "!"; 
+  cout << son / 10 % 10 << "!"; 
+  cout << son % 10; 
+
+  return 0;
 }
