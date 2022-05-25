@@ -26,7 +26,7 @@ int main14()
 
   return 0;
 }
-int main()
+int main15()
  {
   char harf;
   cin >> harf;
@@ -34,6 +34,15 @@ int main()
    cout << (char)(harf-32) << endl;
   
   
-return 0;
+ return 0;
+}
+int main()
+ {
+ char harf;
+ cin >> harf;
+  
+ cout << (char)(harf+32) << endl;
+  
+ return 0;
 
-  }
+}
