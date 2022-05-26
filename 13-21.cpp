@@ -75,7 +75,7 @@ int main18()
   
   return 0;
 }
-int main()
+int main19()
 {
  int son;
   
@@ -85,4 +85,15 @@ int main()
   
  return 0;
 
+}
+int main() 
+{
+  int N;
+  cin >> N;
+
+  int target = N / 100 % 10;
+
+  cout << (N = target < 5 ? N / 1000 * 1000 :(N / 1000 + 1) * 1000) << endl;
+  
+  return 0;
 }
