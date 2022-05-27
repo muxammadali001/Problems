@@ -97,7 +97,7 @@ int main20()
   
   return 0;
 }
-int main()
+int main21()
 {
   float length;
     float PI = 3.14;
@@ -109,5 +109,22 @@ int main()
   
     cout << setprecision(0) << fixed << area << endl;
   
+  return 0;
+}
+int main()
+{
+  int N;
+  
+    cin >> N;
+  
+  if(N >=20 && N <=30)
+    {
+      cout << 1 << endl;
+    }
+    else 
+    {
+      cout << 0 << endl;
+    }
+ 
   return 0;
 }
