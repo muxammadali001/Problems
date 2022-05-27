@@ -86,7 +86,7 @@ int main19()
  return 0;
 
 }
-int main() 
+int main20() 
 {
   int N;
   cin >> N;
@@ -94,6 +94,20 @@ int main()
   int target = N / 100 % 10;
 
   cout << (N = target < 5 ? N / 1000 * 1000 :(N / 1000 + 1) * 1000) << endl;
+  
+  return 0;
+}
+int main()
+{
+  float length;
+    float PI = 3.14;
+  
+    cin >> length;
+    
+    float radius = length / (2 * PI);
+    float area = PI * radius * radius;
+  
+    cout << setprecision(0) << fixed << area << endl;
   
   return 0;
 }
