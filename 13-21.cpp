@@ -111,7 +111,7 @@ int main21()
   
   return 0;
 }
-int main()
+int main22()
 {
   int N;
   
@@ -128,3 +128,27 @@ int main()
  
   return 0;
 }
+int main()
+{
+  char harf;
+  
+    cin >> harf;
+  
+    if(harf >='a' && harf<='z')  
+    {
+    cout << 1 << endl;
+    
+    }
+    else if(harf>='A' && harf<='Z')
+  {
+    cout << 1 << endl;
+  }
+  else 
+  {
+    cout << 0 << endl;
+  }
+  
+    
+  
+  return 0;
+  }
