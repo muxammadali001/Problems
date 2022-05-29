@@ -128,7 +128,7 @@ int main22()
  
   return 0;
 }
-int main()
+int main23()
 {
   char harf;
   
@@ -152,3 +152,20 @@ int main()
   
   return 0;
   }
+  int main()
+{
+  int N;
+
+    cin >> N;
+  
+  if(N % 2  == 0)
+  {
+    cout << "even" << endl;
+  }
+  else 
+  {
+    cout  << "odd" << endl;
+  }
+
+  return 0;
+}
