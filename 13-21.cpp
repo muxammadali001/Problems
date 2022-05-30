@@ -152,7 +152,7 @@ int main23()
   
   return 0;
   }
-  int main()
+  int main24()
 {
   int N;
 
@@ -167,5 +167,20 @@ int main23()
     cout  << "odd" << endl;
   }
 
+  return 0;
+}
+int main()
+{
+  int N, M;
+  cin >> N >> M;
+  if(N > M)
+  {
+    cout << N << endl;
+  }
+  else
+  {
+    cout << M << endl;
+  }
+  
   return 0;
 }
