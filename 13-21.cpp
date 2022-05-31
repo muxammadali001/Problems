@@ -216,7 +216,7 @@ int main27()
    
     return 0;
 }
-int main()
+int main28()
 {
   int N ;
   cin >> N;
@@ -234,4 +234,25 @@ int main()
   }
  
 return 0;
+}
+int main()
+{
+  int N, M;
+  cin >> N >> M;
+  if(N * N == M)
+  {
+    cout <<N << "*" << N<< "=" << M  << endl;
+  }
+  else if(M * M == N)
+  {
+    cout << M  << "*" << M  << "=" << N << endl;
+  }
+  else 
+  {
+    cout << "none"  << endl;
+  }
+  
+
+
+  return 0;
 }
