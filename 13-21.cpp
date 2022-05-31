@@ -184,7 +184,7 @@ int main25()
   
   return 0;
 }
-int main()
+int main26()
 {
   int a, b;
   cin >> a >> b;
@@ -200,4 +200,19 @@ int main()
     cout << b % a;
   }
 	return 0;
+}
+int main()
+{
+    int a, b, c;
+    cin >> a >> b;
+  
+  if(a == 0)
+  {
+   a = 24;
+  }
+  c = (a * 60) + (b - 45);
+  cout << c / 60 << " " << c % 60 << endl;
+
+   
+    return 0;
 }
