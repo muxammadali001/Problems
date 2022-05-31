@@ -201,7 +201,7 @@ int main26()
   }
 	return 0;
 }
-int main()
+int main27()
 {
     int a, b, c;
     cin >> a >> b;
@@ -215,4 +215,23 @@ int main()
 
    
     return 0;
+}
+int main()
+{
+  int N ;
+  cin >> N;
+  if( N <= 0)
+  {
+    cout <<"ichkarida o'yna"<<endl;
+  }
+  else if( N < 40)
+  {
+  cout <<"tashqarida o'yna" <<endl;
+  }
+  else
+  {
+   cout <<"ichkarida o'yna"<<endl;     
+  }
+ 
+return 0;
 }
