@@ -169,7 +169,7 @@ int main23()
 
   return 0;
 }
-int main()
+int main25()
 {
   int N, M;
   cin >> N >> M;
@@ -183,4 +183,21 @@ int main()
   }
   
   return 0;
+}
+int main()
+{
+  int a, b;
+  cin >> a >> b;
+  
+  if(a > b)
+  {
+  	cout << a / b << endl;
+    cout << a % b;
+  }
+  else
+  {
+    cout << b / a << endl;
+    cout << b % a;
+  }
+	return 0;
 }
