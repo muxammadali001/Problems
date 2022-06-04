@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mac/Desktop/work/less/less.csproj",
+      "projectUniqueName": "/Users/mac/Desktop/proj/EPAM/less.csproj",
       "projectName": "less",
-      "projectPath": "/Users/mac/Desktop/work/less/less.csproj",
+      "projectPath": "/Users/mac/Desktop/proj/EPAM/less.csproj",
       "packagesPath": "/Users/mac/.nuget/packages/",
-      "outputPath": "/Users/mac/Desktop/work/less/obj/",
+      "outputPath": "/Users/mac/Desktop/proj/EPAM/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/mac/.nuget/NuGet/NuGet.Config"
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
       }
     }
   }

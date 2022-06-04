@@ -256,7 +256,7 @@ int main29()
 
   return 0;
 }
-int main()
+int main31()
 {
   int a, b, c;
   cin >> a >> b >>c;
@@ -274,5 +274,27 @@ int main()
   }
  
 
+  return 0;
+}
+int main()
+{
+  int n;
+  cin >> n;
+  
+  if(n % 4 != 0)
+  {
+    cout << "0" << endl;
+  }
+  
+  else if ( n % 100 == 0 && n % 400 != 0)
+  {
+  	cout << "0" << endl;
+  } 
+  
+  else
+  {
+  	cout << "1" << endl;
+  }  
+  
   return 0;
 }
