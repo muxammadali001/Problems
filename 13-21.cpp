@@ -276,7 +276,7 @@ int main31()
 
   return 0;
 }
-int main()
+int main32()
 {
   int n;
   cin >> n;
@@ -295,6 +295,42 @@ int main()
   {
   	cout << "1" << endl;
   }  
+  
+  return 0;
+}
+int main()
+{
+  int N, M;
+  
+  cin >> N >> M;
+  
+  if(N == M)
+  {
+    cout << "YORVORDIZ" << endl;
+  }
+  else if(N > M)
+  {
+    cout << "TEPAGA" << endl;
+  }
+  else
+  {
+    cout << "PASTGA" << endl;
+  }
+  
+  cin >> M;
+  
+  if(M == N)
+  {
+    cout << "YORVORDIZ" << endl;
+  }
+  else if(M > N)
+  {
+    cout << "PASTGA" << endl;
+  }
+  else
+  {
+    cout << "TEPAGA" << endl;
+  }
   
   return 0;
 }
