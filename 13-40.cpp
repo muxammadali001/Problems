@@ -298,7 +298,7 @@ int main32()
   
   return 0;
 }
-int main()
+int main33()
 {
   int N, M;
   
@@ -332,5 +332,24 @@ int main()
     cout << "TEPAGA" << endl;
   }
   
+  return 0;
+}
+int main()
+{
+ char harf;
+  cin >> harf;
+  
+  if(harf >= 'A' && harf <='Z')
+  {
+  cout << (char)(harf+32) << endl;
+  }
+  else if (harf >= 'a' && harf <='b')
+  {
+  cout << (char)(harf-32) << endl;
+  }
+  else
+  {
+  cout << "none" << endl;
+  }
   return 0;
 }
