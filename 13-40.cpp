@@ -334,7 +334,7 @@ int main33()
   
   return 0;
 }
-int main()
+int main34()
 {
  char harf;
   cin >> harf;
