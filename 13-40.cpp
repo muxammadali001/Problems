@@ -353,3 +353,22 @@ int main34()
   }
   return 0;
 }
+int main()
+{
+  int a, b;
+  cin >> a;
+  
+  char N;
+  cin >> N;
+  cin >> b;
+  
+  if (N == 43)
+  {
+  	cout << a + b << endl;
+  }  
+  else if ( N == 45)
+  {
+  	cout << a - b << endl;
+  }  
+return 0;
+}
