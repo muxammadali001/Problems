@@ -372,7 +372,7 @@ int main35()
   }  
 return 0;
 }
-int main()
+int main36()
 {
   int qaytim;
   int sum;
