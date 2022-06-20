@@ -372,3 +372,30 @@ int main35()
   }  
 return 0;
 }
+int main()
+{
+  int qaytim;
+  int sum;
+  int orderNum;
+  
+  cin >> orderNum >> sum;
+  
+  switch(orderNum)
+  {
+    case 1:
+      cout << "Americano"<< endl;
+      qaytim = sum - 500;
+      break;
+    case 2:
+      cout <<"Caffe Latte"<< endl;
+      qaytim = sum - 400;
+      break;
+    case 3:
+      cout <<"Lemon Tea"<< endl;
+      qaytim = sum - 300;
+      break;
+  }
+  cout << qaytim / 500 << " " <<qaytim % 500 / 100 << endl;
+  
+return 0;
+}
