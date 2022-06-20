@@ -353,7 +353,7 @@ int main34()
   }
   return 0;
 }
-int main()
+int main35()
 {
   int a, b;
   cin >> a;
