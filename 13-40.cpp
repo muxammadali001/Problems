@@ -399,3 +399,30 @@ int main37()
   
 return 0;
 }
+int main()//pifagor
+{
+    int a,b,c;
+    cin >> a >> b >> c;
+    
+    if(a * a + b * b ==c * c)
+    {
+        cout << "true" << endl;
+    }
+    
+    else if(a * a + c * c == b * b)
+    {
+        cout << "true" << endl;
+    }
+    
+    else if(b * b + c * c == a * a)
+    {
+        cout << "true" << endl;
+    }
+    else 
+    {
+        cout << "false" << endl;
+    }
+    
+    return 0;
+  
+}
